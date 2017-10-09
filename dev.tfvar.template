@@ -1,0 +1,8 @@
+## Copy this file to credentials.tfvar
+## Complete required variables
+## use it in `terraform plan/apply -var-file=xxx.tfvar` to pass secrets.
+## *.tfvar files are git ignored
+
+## ssh key is used for virtual machine initial log in authentication.
+location = "East US"
+sshkey = "..."
