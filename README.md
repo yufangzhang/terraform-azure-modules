@@ -46,7 +46,8 @@
 
 
 ### To do
-terraform.state should better be saved on backend (s3/azurerm, etc)
+- Parameterize Terraform configuration files
+- Backend terraform.state should better be saved on backend (s3/azurerm, etc)
 
 
 
