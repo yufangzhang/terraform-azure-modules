@@ -46,6 +46,7 @@
 
 
 ### To do
+- Add load balancers and virtual machine scale sets
 - Parameterize Terraform configuration files
 - Backend terraform.state should better be saved on backend (s3/azurerm, etc)
 
