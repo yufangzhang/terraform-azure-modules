@@ -16,5 +16,5 @@ variable blob_storage_url {
 }
 
 variable sshkey {
-  description = "SSH Key for vm login"
+  description = "Public SSH key's path for vm login"
 }
