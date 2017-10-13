@@ -1,3 +1,7 @@
+Follow this [Microsoft Guide](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) to install and configure Terraform
+
+This demo is to see how Terraform Modules work. The original sample script from [Miscrosoft official guide](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-create-complete-vm) is splited into four modules here.
+
 ### .gitignore explained
 
 *.tfvar, .terraform/, terrafrom.state can contain secrets therefore not uploaded. A better secret management could be via [backend](https://www.terraform.io/docs/backends/types/azurerm.html).
