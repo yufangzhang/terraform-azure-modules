@@ -60,6 +60,7 @@ This demo is to see how Terraform Modules work. The original sample script from 
 
 Five environment variables are used here: ARM_SUBSCRIPTION_ID, ARM_CLIENT_ID, ARM_CLIENT_SECRET, ARM_TENANT_ID and ARM_TEST_LOCATION. Follow steps from [here](https://www.terraform.io/docs/providers/azurerm/authenticating_via_service_principal.html) to create these credentials.
 
+`terraform init . \`
 `terraform get` \
 `terraform plan -var-file=xxx.tfvar` \
 `terraform apply -var-file=xxx.tfvar`
